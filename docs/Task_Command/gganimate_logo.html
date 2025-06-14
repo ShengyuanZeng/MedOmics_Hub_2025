@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Interactive Exploration of Multi-Omic Medical Research</title>
+<title>gganimate_logo – Interactive Exploration of Multi-Omic Medical Research</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,24 +23,24 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<link href="./image/logo5.png" rel="icon" type="image/png">
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-e1a5c8363afafaef2c763b6775fbf3ca.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-a14e3238c51140e99ccc48519b6ed9ce.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../image/logo5.png" rel="icon" type="image/png">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-e1a5c8363afafaef2c763b6775fbf3ca.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-a14e3238c51140e99ccc48519b6ed9ce.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -79,10 +79,10 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    <img src="./image/logo4.png" alt="" class="navbar-logo">
+    <a href="../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../image/logo4.png" alt="" class="navbar-logo">
     </a>
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">Shengyuan &amp; Xuekang</span>
     </a>
   </div>
@@ -93,15 +93,15 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./blog/index.html"> 
+    <a class="nav-link" href="../blog/index.html"> 
 <span class="menu-text">Blog</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./about/index.html"> 
+    <a class="nav-link" href="../about/index.html"> 
 <span class="menu-text">About</span></a>
   </li>  
 </ul>
@@ -117,15 +117,57 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">gganimate_logo</h1>
+</div>
 
 
 
+<div class="quarto-title-meta">
 
-<p><img src="image/logo5.png" alt="MedOmics Hub Logo" width="200" style="display: block; margin: 0 auto;"></p>
-<p>Welcome to <strong>MedOmics Hub</strong> — an interactive platform for exploring multi-omic medical research.</p>
+    
+  
+    
+  </div>
+  
 
 
+</header>
+
+
+<section id="load-libraries" class="level1">
+<h1>Load libraries</h1>
+<p>library(ggplot2) library(gganimate) library(magick) # For image handling library(png) library(grid)</p>
+</section>
+<section id="read-background-fox-image" class="level1">
+<h1>Read background fox image</h1>
+<p>fox_img &lt;- readPNG(“fox.png”) fox_grob &lt;- rasterGrob(fox_img, interpolate = TRUE)</p>
+</section>
+<section id="read-dna-image" class="level1">
+<h1>Read DNA image</h1>
+<p>dna_img &lt;- readPNG(“dna.png”) dna_grob &lt;- rasterGrob(dna_img, interpolate = TRUE)</p>
+</section>
+<section id="create-rotating-dna-positions" class="level1">
+<h1>Create rotating DNA positions</h1>
+<p>frames &lt;- 60 angle_seq &lt;- seq(0, 360, length.out = frames)</p>
+</section>
+<section id="generate-a-data-frame-of-rotation-around-a-center" class="level1">
+<h1>Generate a data frame of rotation around a center</h1>
+<p>radius &lt;- 0.3 dna_df &lt;- data.frame( angle = angle_seq, x = 0.5 + radius * cospi(angle_seq / 180), y = 0.5 + radius * sinpi(angle_seq / 180), frame = 1:frames )</p>
+</section>
+<section id="plot-with-gganimate" class="level1">
+<h1>Plot with gganimate</h1>
+<p>p &lt;- ggplot() + annotation_custom(fox_grob, xmin = 0, xmax = 1, ymin = 0, ymax = 1) + # fixed fox geom_point(data = dna_df, aes(x, y), color = NA) + # dummy plot transition_manual(frame) + theme_void() + coord_fixed() + annotation_custom2( dna_grob, xmin = ~x - 0.1, xmax = ~x + 0.1, ymin = ~y - 0.1, ymax = ~y + 0.1 )</p>
+</section>
+<section id="save-or-render" class="level1">
+<h1>Save or render</h1>
+<p>animate(p, nframes = frames, fps = 15, width = 500, height = 500, renderer = gifski_renderer(“dna_around_fox.gif”))</p>
+
+
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
