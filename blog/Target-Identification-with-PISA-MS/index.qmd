@@ -1,0 +1,36 @@
+---
+title: Proteomics-Driven Target Identification
+subtitle: Using TPP and PISA to Map Drug Interactions and Off-Target Effects
+author: Xuekang
+date: 2025-06-18
+categories:
+  - Proteomics
+  - Proteome Integral Solubility Alteration
+  - off-target
+  - drug development
+slug: patchwork
+page-layout: article
+image: Thermal_Shift.png
+---
+
+Since 2000, oncology drug approvals by the FDA have increased significantly, driven by the rise of **targeted therapies and novel treatment approaches**. Kinase inhibitors remain the most approved class, while immune checkpoint inhibitors, introduced in 2011, have rapidly become the second most approved category.
+
+![Trends in Oncology Therapeutic Approvals. Data adapted from Nature Reviews Drug Discovery (2023, PMID: 37344568).](Combined_approvals_plot.png){width=500}
+
+It is well established that many, if not most, cancer drugs exhibit **off-target or multi-mechanism effects** due to their multi-target interaction characteristics, some of which are not their primary intended targets. 
+
+These multi-/off-target effects can directly contribute to low clinical trial success rates, high off-target toxicity, post-approval withdrawals, and weak confirmation of survival benefit; thus, investing in ***robust and specific target identification***, coupled with biomarker selection, can dramatically increase efficacy, achieve **true precision medicine**, reduce adverse effects, and improve overall success in anti-cancer drug development.
+
+![Distribution of Numbers of (Off-)targets per Drug in Each Class of Cancer Drugs. J Chem Inf Model (2019, PMID: 31025863).](multi-target.png){width=500}
+
+**Thermal Proteome Profiling (TPP) and Proteome Integral Solubility Alteration (PISA)** are mass spectrometry–based proteomics techniques designed to study protein stability and interactions in a cellular context. Both methods leverage the principle that ***small molecule binding often alters the thermal stability or solubility profile of a protein***. 
+
+In TPP, cells or lysates are exposed to a temperature gradient in the presence or absence of a compound, allowing for the detection of protein stability shifts across the proteome. PISA simplifies this approach by measuring protein solubility changes at a single elevated temperature, enabling higher throughput while maintaining sensitivity.
+
+![Thermal Shift Assay Principle Science Design (BioRender)](Thermal_Shift.png){width=500}
+
+These methods provide unbiased, proteome-wide insights into drug–protein interactions under near-physiological conditions, without requiring chemical modification of compounds. TPP and PISA are valuable tools for target validation, mechanism-of-action studies, and off-target identification. By revealing functional proteoform responses, they support biomarker discovery and contribute to more precise, effective cancer therapies aligned with individual patient biology.
+
+
+
+![[volcanoPISA](link)](volcanoPISA.png){width=100}

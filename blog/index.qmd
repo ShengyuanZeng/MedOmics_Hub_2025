@@ -1,0 +1,14 @@
+---
+title: "Blog"
+author: ""
+listing: 
+  contents:
+    - "*.qmd"
+  type: default
+  fields: [title, author, categories, date, image]
+  sort: "date desc"
+  image-height: 200px
+format: 
+  html: 
+    page-layout: full
+---
