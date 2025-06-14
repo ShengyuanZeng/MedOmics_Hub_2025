@@ -89,5 +89,75 @@
     "title": "Update and Push a File to/from GitHub",
     "section": "3. Pull the latest changes from GitHub",
     "text": "3. Pull the latest changes from GitHub\ngit pull origin main"
+  },
+  {
+    "objectID": "Task_Command/gganimate_logo.html",
+    "href": "Task_Command/gganimate_logo.html",
+    "title": "gganimate_logo",
+    "section": "",
+    "text": "Load libraries\nlibrary(ggplot2) library(gganimate) library(magick) # For image handling library(png) library(grid)\n\n\nRead background fox image\nfox_img &lt;- readPNG(“fox.png”) fox_grob &lt;- rasterGrob(fox_img, interpolate = TRUE)\n\n\nRead DNA image\ndna_img &lt;- readPNG(“dna.png”) dna_grob &lt;- rasterGrob(dna_img, interpolate = TRUE)\n\n\nCreate rotating DNA positions\nframes &lt;- 60 angle_seq &lt;- seq(0, 360, length.out = frames)\n\n\nGenerate a data frame of rotation around a center\nradius &lt;- 0.3 dna_df &lt;- data.frame( angle = angle_seq, x = 0.5 + radius * cospi(angle_seq / 180), y = 0.5 + radius * sinpi(angle_seq / 180), frame = 1:frames )\n\n\nPlot with gganimate\np &lt;- ggplot() + annotation_custom(fox_grob, xmin = 0, xmax = 1, ymin = 0, ymax = 1) + # fixed fox geom_point(data = dna_df, aes(x, y), color = NA) + # dummy plot transition_manual(frame) + theme_void() + coord_fixed() + annotation_custom2( dna_grob, xmin = ~x - 0.1, xmax = ~x + 0.1, ymin = ~y - 0.1, ymax = ~y + 0.1 )\n\n\nSave or render\nanimate(p, nframes = frames, fps = 15, width = 500, height = 500, renderer = gifski_renderer(“dna_around_fox.gif”))"
+  },
+  {
+    "objectID": "Task_Command/Git_Updating_Command.html#navigate-to-the-local-repository",
+    "href": "Task_Command/Git_Updating_Command.html#navigate-to-the-local-repository",
+    "title": "Update and Push a File to/from GitHub",
+    "section": "1. Navigate to the local repository",
+    "text": "1. Navigate to the local repository\ncd /path/to/your/local/repository"
+  },
+  {
+    "objectID": "Task_Command/Git_Updating_Command.html#check-the-status",
+    "href": "Task_Command/Git_Updating_Command.html#check-the-status",
+    "title": "Update and Push a File to/from GitHub",
+    "section": "2. Check the status",
+    "text": "2. Check the status\ngit status"
+  },
+  {
+    "objectID": "Task_Command/Git_Updating_Command.html#add-the-updated-file",
+    "href": "Task_Command/Git_Updating_Command.html#add-the-updated-file",
+    "title": "Update and Push a File to/from GitHub",
+    "section": "3. Add the updated file",
+    "text": "3. Add the updated file\ngit add updated_file.txt"
+  },
+  {
+    "objectID": "Task_Command/Git_Updating_Command.html#add-all-changed-files",
+    "href": "Task_Command/Git_Updating_Command.html#add-all-changed-files",
+    "title": "Update and Push a File to/from GitHub",
+    "section": "add all changed files",
+    "text": "add all changed files\ngit add ."
+  },
+  {
+    "objectID": "Task_Command/Git_Updating_Command.html#commit-your-changes",
+    "href": "Task_Command/Git_Updating_Command.html#commit-your-changes",
+    "title": "Update and Push a File to/from GitHub",
+    "section": "5. Commit your changes",
+    "text": "5. Commit your changes\ngit commit -m “Update file with latest changes”"
+  },
+  {
+    "objectID": "Task_Command/Git_Updating_Command.html#push-to-github",
+    "href": "Task_Command/Git_Updating_Command.html#push-to-github",
+    "title": "Update and Push a File to/from GitHub",
+    "section": "6. Push to GitHub",
+    "text": "6. Push to GitHub\ngit push origin main\n\nUpdate Your Local Repository from GitHub"
+  },
+  {
+    "objectID": "Task_Command/Git_Updating_Command.html#navigate-to-the-local-repository-1",
+    "href": "Task_Command/Git_Updating_Command.html#navigate-to-the-local-repository-1",
+    "title": "Update and Push a File to/from GitHub",
+    "section": "1. Navigate to the local repository",
+    "text": "1. Navigate to the local repository\ncd /path/to/your/local/repository"
+  },
+  {
+    "objectID": "Task_Command/Git_Updating_Command.html#check-your-current-branch",
+    "href": "Task_Command/Git_Updating_Command.html#check-your-current-branch",
+    "title": "Update and Push a File to/from GitHub",
+    "section": "2. Check your current branch",
+    "text": "2. Check your current branch\ngit branch"
+  },
+  {
+    "objectID": "Task_Command/Git_Updating_Command.html#pull-the-latest-changes-from-github",
+    "href": "Task_Command/Git_Updating_Command.html#pull-the-latest-changes-from-github",
+    "title": "Update and Push a File to/from GitHub",
+    "section": "3. Pull the latest changes from GitHub",
+    "text": "3. Pull the latest changes from GitHub\ngit pull origin main"
   }
 ]

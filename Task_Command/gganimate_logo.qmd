@@ -1,0 +1,50 @@
+---
+title: "gganimate_logo"
+format: html
+---
+
+# Load libraries
+library(ggplot2)
+library(gganimate)
+library(magick)    # For image handling
+library(png)
+library(grid)
+
+# Read background fox image
+fox_img <- readPNG("fox.png")
+fox_grob <- rasterGrob(fox_img, interpolate = TRUE)
+
+# Read DNA image
+dna_img <- readPNG("dna.png")
+dna_grob <- rasterGrob(dna_img, interpolate = TRUE)
+
+# Create rotating DNA positions
+frames <- 60
+angle_seq <- seq(0, 360, length.out = frames)
+
+# Generate a data frame of rotation around a center
+radius <- 0.3
+dna_df <- data.frame(
+  angle = angle_seq,
+  x = 0.5 + radius * cospi(angle_seq / 180),
+  y = 0.5 + radius * sinpi(angle_seq / 180),
+  frame = 1:frames
+)
+
+# Plot with gganimate
+p <- ggplot() +
+  annotation_custom(fox_grob, xmin = 0, xmax = 1, ymin = 0, ymax = 1) +  # fixed fox
+  geom_point(data = dna_df, aes(x, y), color = NA) +                     # dummy plot
+  transition_manual(frame) +
+  theme_void() +
+  coord_fixed() +
+  annotation_custom2(
+    dna_grob,
+    xmin = ~x - 0.1,
+    xmax = ~x + 0.1,
+    ymin = ~y - 0.1,
+    ymax = ~y + 0.1
+  )
+
+# Save or render
+animate(p, nframes = frames, fps = 15, width = 500, height = 500, renderer = gifski_renderer("dna_around_fox.gif"))
