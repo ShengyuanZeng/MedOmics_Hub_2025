@@ -16,7 +16,7 @@ website:
       - text: Blog
         href: blog/index.qmd 
       - text: About
-        href: about.qmd
+        href: about/index.qmd
   page-footer:
     left: "© 2025 MedOmics Hub"
     right: 'Made with [Quarto](https://quarto.org)'
