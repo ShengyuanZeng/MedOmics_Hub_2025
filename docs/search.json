@@ -26,5 +26,110 @@
     "title": "Proteomics-Driven Target Identification",
     "section": "",
     "text": "Since 2000, oncology drug approvals by the FDA have increased significantly, driven by the rise of targeted therapies and novel treatment approaches. Kinase inhibitors remain the most approved class, while immune checkpoint inhibitors, introduced in 2011, have rapidly become the second most approved category.\n\n\n\nTrends in Oncology Therapeutic Approvals. Data adapted from Nature Reviews Drug Discovery (2023, PMID: 37344568).\n\n\nIt is well established that many, if not most, cancer drugs exhibit off-target or multi-mechanism effects due to their multi-target interaction characteristics, some of which are not their primary intended targets.\nThese multi-/off-target effects can directly contribute to low clinical trial success rates, high off-target toxicity, post-approval withdrawals, and weak confirmation of survival benefit; thus, investing in robust and specific target identification, coupled with biomarker selection, can dramatically increase efficacy, achieve true precision medicine, reduce adverse effects, and improve overall success in anti-cancer drug development.\n\n\n\nDistribution of Numbers of (Off-)targets per Drug in Each Class of Cancer Drugs. J Chem Inf Model (2019, PMID: 31025863).\n\n\nThermal Proteome Profiling (TPP) and Proteome Integral Solubility Alteration (PISA) are mass spectrometry–based proteomics techniques designed to study protein stability and interactions in a cellular context. Both methods leverage the principle that small molecule binding often alters the thermal stability or solubility profile of a protein.\nIn TPP, cells or lysates are exposed to a temperature gradient in the presence or absence of a compound, allowing for the detection of protein stability shifts across the proteome. PISA simplifies this approach by measuring protein solubility changes at a single elevated temperature, enabling higher throughput while maintaining sensitivity.\n\n\n\nThermal Shift Assay Principle Science Design (BioRender)\n\n\nThese methods provide unbiased, proteome-wide insights into drug–protein interactions under near-physiological conditions, without requiring chemical modification of compounds. TPP and PISA are valuable tools for target validation, mechanism-of-action studies, and off-target identification. By revealing functional proteoform responses, they support biomarker discovery and contribute to more precise, effective cancer therapies aligned with individual patient biology.\n\n\n\nvolcanoPISA"
+  },
+  {
+    "objectID": "Task_Command/gganimate_logo.html",
+    "href": "Task_Command/gganimate_logo.html",
+    "title": "gganimate_logo",
+    "section": "",
+    "text": "Load libraries\nlibrary(ggplot2) library(gganimate) library(magick) # For image handling library(png) library(grid)\n\n\nRead background fox image\nfox_img &lt;- readPNG(“fox.png”) fox_grob &lt;- rasterGrob(fox_img, interpolate = TRUE)\n\n\nRead DNA image\ndna_img &lt;- readPNG(“dna.png”) dna_grob &lt;- rasterGrob(dna_img, interpolate = TRUE)\n\n\nCreate rotating DNA positions\nframes &lt;- 60 angle_seq &lt;- seq(0, 360, length.out = frames)\n\n\nGenerate a data frame of rotation around a center\nradius &lt;- 0.3 dna_df &lt;- data.frame( angle = angle_seq, x = 0.5 + radius * cospi(angle_seq / 180), y = 0.5 + radius * sinpi(angle_seq / 180), frame = 1:frames )\n\n\nPlot with gganimate\np &lt;- ggplot() + annotation_custom(fox_grob, xmin = 0, xmax = 1, ymin = 0, ymax = 1) + # fixed fox geom_point(data = dna_df, aes(x, y), color = NA) + # dummy plot transition_manual(frame) + theme_void() + coord_fixed() + annotation_custom2( dna_grob, xmin = ~x - 0.1, xmax = ~x + 0.1, ymin = ~y - 0.1, ymax = ~y + 0.1 )\n\n\nSave or render\nanimate(p, nframes = frames, fps = 15, width = 500, height = 500, renderer = gifski_renderer(“dna_around_fox.gif”))"
+  },
+  {
+    "objectID": "Task_Command/Git_Updating_Command.html#navigate-to-the-local-repository",
+    "href": "Task_Command/Git_Updating_Command.html#navigate-to-the-local-repository",
+    "title": "Update and Push a File to/from GitHub",
+    "section": "1. Navigate to the local repository",
+    "text": "1. Navigate to the local repository\ncd /path/to/your/local/repository"
+  },
+  {
+    "objectID": "Task_Command/Git_Updating_Command.html#check-the-status",
+    "href": "Task_Command/Git_Updating_Command.html#check-the-status",
+    "title": "Update and Push a File to/from GitHub",
+    "section": "2. Check the status",
+    "text": "2. Check the status\ngit status"
+  },
+  {
+    "objectID": "Task_Command/Git_Updating_Command.html#add-the-updated-file",
+    "href": "Task_Command/Git_Updating_Command.html#add-the-updated-file",
+    "title": "Update and Push a File to/from GitHub",
+    "section": "3. Add the updated file",
+    "text": "3. Add the updated file\ngit add updated_file.txt"
+  },
+  {
+    "objectID": "Task_Command/Git_Updating_Command.html#add-all-changed-files",
+    "href": "Task_Command/Git_Updating_Command.html#add-all-changed-files",
+    "title": "Update and Push a File to/from GitHub",
+    "section": "add all changed files",
+    "text": "add all changed files\ngit add ."
+  },
+  {
+    "objectID": "Task_Command/Git_Updating_Command.html#commit-your-changes",
+    "href": "Task_Command/Git_Updating_Command.html#commit-your-changes",
+    "title": "Update and Push a File to/from GitHub",
+    "section": "5. Commit your changes",
+    "text": "5. Commit your changes\ngit commit -m “Update file with latest changes”"
+  },
+  {
+    "objectID": "Task_Command/Git_Updating_Command.html#push-to-github",
+    "href": "Task_Command/Git_Updating_Command.html#push-to-github",
+    "title": "Update and Push a File to/from GitHub",
+    "section": "6. Push to GitHub",
+    "text": "6. Push to GitHub\ngit push origin main\n\nUpdate Your Local Repository from GitHub"
+  },
+  {
+    "objectID": "Task_Command/Git_Updating_Command.html#navigate-to-the-local-repository-1",
+    "href": "Task_Command/Git_Updating_Command.html#navigate-to-the-local-repository-1",
+    "title": "Update and Push a File to/from GitHub",
+    "section": "1. Navigate to the local repository",
+    "text": "1. Navigate to the local repository\ncd /path/to/your/local/repository"
+  },
+  {
+    "objectID": "Task_Command/Git_Updating_Command.html#check-your-current-branch",
+    "href": "Task_Command/Git_Updating_Command.html#check-your-current-branch",
+    "title": "Update and Push a File to/from GitHub",
+    "section": "2. Check your current branch",
+    "text": "2. Check your current branch\ngit branch"
+  },
+  {
+    "objectID": "Task_Command/Git_Updating_Command.html#pull-the-latest-changes-from-github",
+    "href": "Task_Command/Git_Updating_Command.html#pull-the-latest-changes-from-github",
+    "title": "Update and Push a File to/from GitHub",
+    "section": "3. Pull the latest changes from GitHub",
+    "text": "3. Pull the latest changes from GitHub\ngit pull origin main"
+  },
+  {
+    "objectID": "about/index.html",
+    "href": "about/index.html",
+    "title": "About MedOmics Hub",
+    "section": "",
+    "text": "Shengyuan Zeng\n\n\nPhD at Karolinska Institute Genomics and Epigenomics / NGS technology / Spatial chromosomes sequencing Hi-C / Multi-omics bioinformatics / Data visualization / Data analysis\n\n\n\nXuekang Qi\n\n\nPostdoc at KI. Using novel chemical, thermal and quantitative proteomics technologies to study Acute Lymphoblastic Leukemia (ALL)."
+  },
+  {
+    "objectID": "about/index.html#meet-the-team",
+    "href": "about/index.html#meet-the-team",
+    "title": "About MedOmics Hub",
+    "section": "",
+    "text": "Shengyuan Zeng\n\n\nPhD at Karolinska Institute Genomics and Epigenomics / NGS technology / Spatial chromosomes sequencing Hi-C / Multi-omics bioinformatics / Data visualization / Data analysis\n\n\n\nXuekang Qi\n\n\nPostdoc at KI. Using novel chemical, thermal and quantitative proteomics technologies to study Acute Lymphoblastic Leukemia (ALL)."
+  },
+  {
+    "objectID": "about/index.html#our-inspiration",
+    "href": "about/index.html#our-inspiration",
+    "title": "About MedOmics Hub",
+    "section": "Our Inspiration",
+    "text": "Our Inspiration\nMedOmics Hub was born from a shared enthusiasm during the RaukR course, where we explored the power of multi-omics analysis and the importance of effective data communication. Inspired by the course environment, we realized how valuable it would be to create a platform where we can share knowledge and build interactive visualizations to make complex multi-omics datasets more accessible, engaging, and informative."
+  },
+  {
+    "objectID": "about/index.html#join-the-journey",
+    "href": "about/index.html#join-the-journey",
+    "title": "About MedOmics Hub",
+    "section": "Join the Journey",
+    "text": "Join the Journey\nMedOmics Hub is just getting started, and we’re excited about where it could go. In the future, we aim to expand the hub by adding more datasets, refining our tools, and involving collaborators from diverse research areas. If you’re passionate about omics, data science, or scientific communication and would like to contribute or collaborate, we’d love to hear from you!"
+  },
+  {
+    "objectID": "about/index.html#our-motivation",
+    "href": "about/index.html#our-motivation",
+    "title": "About MedOmics Hub",
+    "section": "Our Motivation",
+    "text": "Our Motivation\nWhile the RaukR course may have ended, our journey in data science and coding is just beginning. We see this hub as an opportunity to continue developing our skills—especially in coding for data analysis and visualization—and to stay engaged with the growing world of multi-omics research. MedOmics Hub is a space where we can experiment, learn, and grow together, keeping the momentum going well beyond the classroom."
   }
 ]
