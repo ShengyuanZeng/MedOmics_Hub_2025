@@ -1,0 +1,25 @@
+project:
+  type: website
+  output-dir: docs
+  
+  
+website: 
+  title: "Interactive Exploration of Multi-Omic Medical Research"
+  favicon: image/logo4.png # shows in browser tab
+  description: A website built with Quarto to analyze the transcription and epigenetics data
+  navbar:
+    logo: image/logo4.png # shows in the top-left navbar
+    title: Shengyuan & Xuekang
+    left:
+      - text: Home
+        href: index.qmd
+      - text: Blog
+        href: blog/index.qmd 
+      - text: About
+        href: about.qmd
+  page-footer:
+    left: "© 2025 MedOmics Hub"
+    right: 'Made with [Quarto](https://quarto.org)'
+    
+
+    

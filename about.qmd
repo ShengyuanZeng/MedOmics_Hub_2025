@@ -1,0 +1,6 @@
+---
+title: 'MedOmics Hub'
+format: html
+---
+
+We curate and analyze cutting-edge studies that span genomics, transcriptomics, proteomics, and beyond. For each publication, we provide interactive data visualizations and analytical tools that empower users to explore the findings in depth. Whether you're a researcher, clinician, or student, our platform makes complex omics data accessible, engaging, and actionable.
