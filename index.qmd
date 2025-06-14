@@ -3,7 +3,7 @@
 format: html
 ---
 
-<img src="image/logo4.png" alt="MedOmics Hub Logo" width="200" style="display: block; margin: 0 auto;" />
+<img src="image/logo5.png" alt="MedOmics Hub Logo" width="200" style="display: block; margin: 0 auto;" />
 
 Welcome to **MedOmics Hub** — an interactive platform for exploring multi-omic medical research.
 
