@@ -5,7 +5,7 @@ format:
     page-layout: full
 ---
 
-**Meet the Team**
+## Meet the Team
 
 ![[Shengyuan Zeng](https://www.linkedin.com/in/shengyuan-zeng-72742a20b/) ](Shengyuan.png){fig-align="left" width=200}
 
@@ -16,14 +16,14 @@ PhD at Karolinska Institute Genomics and Epigenomics / NGS technology / Spatial 
 Postdoc at KI. Using novel chemical, thermal and quantitative proteomics technologies to study Acute Lymphoblastic Leukemia (ALL).
 
 
-**Our Inspiration**
+## Our Inspiration
 
 MedOmics Hub was born from a shared enthusiasm during the RaukR course, where we explored the power of multi-omics analysis and the importance of effective data communication. Inspired by the course environment, we realized how valuable it would be to create a platform where we can share knowledge and build interactive visualizations to make complex multi-omics datasets more accessible, engaging, and informative.
 
-**Join the Journey**
+## Join the Journey
 
 MedOmics Hub is just getting started, and we’re excited about where it could go. In the future, we aim to expand the hub by adding more datasets, refining our tools, and involving collaborators from diverse research areas. If you're passionate about omics, data science, or scientific communication and would like to contribute or collaborate, we’d love to hear from you!
 
-**Our Motivation**
+## Our Motivation
 
 While the RaukR course may have ended, our journey in data science and coding is just beginning. We see this hub as an opportunity to continue developing our skills—especially in coding for data analysis and visualization—and to stay engaged with the growing world of multi-omics research. MedOmics Hub is a space where we can experiment, learn, and grow together, keeping the momentum going well beyond the classroom.

@@ -39,6 +39,34 @@
     "href": "about/index.html",
     "title": "About MedOmics Hub",
     "section": "",
-    "text": "Meet the Team\n\n\n\nShengyuan Zeng\n\n\nPhD at Karolinska Institute Genomics and Epigenomics / NGS technology / Spatial chromosomes sequencing Hi-C / Multi-omics bioinformatics / Data visualization / Data analysis\n\n\n\nXuekang Qi\n\n\nPostdoc at KI. Using novel chemical, thermal and quantitative proteomics technologies to study Acute Lymphoblastic Leukemia (ALL).\nOur Inspiration\nMedOmics Hub was born from a shared enthusiasm during the RaukR course, where we explored the power of multi-omics analysis and the importance of effective data communication. Inspired by the course environment, we realized how valuable it would be to create a platform where we can share knowledge and build interactive visualizations to make complex multi-omics datasets more accessible, engaging, and informative.\nJoin the Journey\nMedOmics Hub is just getting started, and we’re excited about where it could go. In the future, we aim to expand the hub by adding more datasets, refining our tools, and involving collaborators from diverse research areas. If you’re passionate about omics, data science, or scientific communication and would like to contribute or collaborate, we’d love to hear from you!\nOur Motivation\nWhile the RaukR course may have ended, our journey in data science and coding is just beginning. We see this hub as an opportunity to continue developing our skills—especially in coding for data analysis and visualization—and to stay engaged with the growing world of multi-omics research. MedOmics Hub is a space where we can experiment, learn, and grow together, keeping the momentum going well beyond the classroom."
+    "text": "Shengyuan Zeng\n\n\nPhD at Karolinska Institute Genomics and Epigenomics / NGS technology / Spatial chromosomes sequencing Hi-C / Multi-omics bioinformatics / Data visualization / Data analysis\n\n\n\nXuekang Qi\n\n\nPostdoc at KI. Using novel chemical, thermal and quantitative proteomics technologies to study Acute Lymphoblastic Leukemia (ALL)."
+  },
+  {
+    "objectID": "about/index.html#meet-the-team",
+    "href": "about/index.html#meet-the-team",
+    "title": "About MedOmics Hub",
+    "section": "",
+    "text": "Shengyuan Zeng\n\n\nPhD at Karolinska Institute Genomics and Epigenomics / NGS technology / Spatial chromosomes sequencing Hi-C / Multi-omics bioinformatics / Data visualization / Data analysis\n\n\n\nXuekang Qi\n\n\nPostdoc at KI. Using novel chemical, thermal and quantitative proteomics technologies to study Acute Lymphoblastic Leukemia (ALL)."
+  },
+  {
+    "objectID": "about/index.html#our-inspiration",
+    "href": "about/index.html#our-inspiration",
+    "title": "About MedOmics Hub",
+    "section": "Our Inspiration",
+    "text": "Our Inspiration\nMedOmics Hub was born from a shared enthusiasm during the RaukR course, where we explored the power of multi-omics analysis and the importance of effective data communication. Inspired by the course environment, we realized how valuable it would be to create a platform where we can share knowledge and build interactive visualizations to make complex multi-omics datasets more accessible, engaging, and informative."
+  },
+  {
+    "objectID": "about/index.html#join-the-journey",
+    "href": "about/index.html#join-the-journey",
+    "title": "About MedOmics Hub",
+    "section": "Join the Journey",
+    "text": "Join the Journey\nMedOmics Hub is just getting started, and we’re excited about where it could go. In the future, we aim to expand the hub by adding more datasets, refining our tools, and involving collaborators from diverse research areas. If you’re passionate about omics, data science, or scientific communication and would like to contribute or collaborate, we’d love to hear from you!"
+  },
+  {
+    "objectID": "about/index.html#our-motivation",
+    "href": "about/index.html#our-motivation",
+    "title": "About MedOmics Hub",
+    "section": "Our Motivation",
+    "text": "Our Motivation\nWhile the RaukR course may have ended, our journey in data science and coding is just beginning. We see this hub as an opportunity to continue developing our skills—especially in coding for data analysis and visualization—and to stay engaged with the growing world of multi-omics research. MedOmics Hub is a space where we can experiment, learn, and grow together, keeping the momentum going well beyond the classroom."
   }
 ]
