@@ -9,7 +9,7 @@ website:
   description: A website built with Quarto to analyze the transcription and epigenetics data
   navbar:
     logo: image/logo4.png # shows in the top-left navbar
-    title: Shengyuan & Xuekang
+    title: MedOmics Hub
     left:
       - text: Home
         href: index.qmd
