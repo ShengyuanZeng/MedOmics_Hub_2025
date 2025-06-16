@@ -8,13 +8,15 @@ website:
   favicon: image/logo5.png # shows in browser tab
   description: A website built with Quarto to analyze the transcription and epigenetics data
   navbar:
-    logo: image/logo4.png # shows in the top-left navbar
-    title: Shengyuan & Xuekang
+    logo: image/logo5.png # shows in the top-left navbar
+    title: MedOmics Hub
     left:
       - text: Home
         href: index.qmd
       - text: Blog
         href: blog/index.qmd 
+      - text: Events
+        href: events/index.qmd
       - text: About
         href: about/index.qmd
   page-footer:
