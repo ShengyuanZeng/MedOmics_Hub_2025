@@ -13,6 +13,8 @@ page-layout: article
 image: Thermal_Shift.png
 ---
 
+### Target Identification and Drug Development
+
 Since 2000, oncology drug approvals by the FDA have increased significantly, driven by the rise of **targeted therapies and novel treatment approaches**. Kinase inhibitors remain the most approved class, while immune checkpoint inhibitors, introduced in 2011, have rapidly become the second most approved category.
 
 ![Trends in Oncology Therapeutic Approvals. Data adapted from Nature Reviews Drug Discovery (2023, PMID: 37344568).](Combined_approvals_plot.png){width=500}
@@ -31,6 +33,44 @@ In TPP, cells or lysates are exposed to a temperature gradient in the presence o
 
 These methods provide unbiased, proteome-wide insights into drug–protein interactions under near-physiological conditions, without requiring chemical modification of compounds. TPP and PISA are valuable tools for target validation, mechanism-of-action studies, and off-target identification. By revealing functional proteoform responses, they support biomarker discovery and contribute to more precise, effective cancer therapies aligned with individual patient biology.
 
+### How to [make a PISA](https://ki.se/en/people/xuekang-qi)
 
+#### 1. Drug Treatment
 
-![[volcanoPISA](link)](volcanoPISA.png){width=100}
+Cells (or lysates) are treated with the compound of interest (and control) to assess target engagement.
+
+#### 2. Thermal Treatment
+
+Samples are subjected to a temperature gradient to induce thermal denaturation.
+
+Drug binding typically stabilizes target proteins, shifting their thermal solubility profile.
+
+#### 3. Centrifugation
+
+Heated samples are centrifuged to separate soluble (stable) proteins from aggregated (denatured) proteins.
+
+Only the soluble fractions are used for downstream proteomic analysis.
+
+#### 4. Protein Digestion
+
+Soluble proteins are enzymatically digested (e.g., with trypsin) into peptides suitable for MS analysis.
+
+#### 5. Mass Spectrometry ([MS](https://ki.se/en/research/research-areas-centres-and-networks/research-groups/cancer-proteogenomics-from-methods-to-clinical-applications-janne-lehtios-group)) Analysis
+
+Peptides are analyzed using LC-MS/MS to generate high-resolution proteomic data.
+
+#### 6. Database Search with [MS Engines](https://github.com/lehtiolab/kantele)
+
+Raw MS data are searched against protein databases using search engines (e.g., MaxQuant or Proteome Discoverer).
+
+#### 7. Statistical Analysis ([DEqMS](https://www.bioconductor.org/packages/release/bioc/html/DEqMS.html))
+
+Quantitative protein data are processed with DEqMS to identify proteins with significant abundance changes.
+
+![Overview of the PISA Assay Workflow (Clinical Proteomics MS Core Facility)(BioRender)](PISA.png){width=600}
+
+### Visualization with VolcanoPISA
+
+Data are visualized using the volcanoPISA Shiny app, generating volcano plots to highlight stabilized proteins and destabilized proteins (potential target/off-targets or effectors).
+
+![[volcanoPISA](link)](volcanoPISA.png){fig-align="left" width=100}
