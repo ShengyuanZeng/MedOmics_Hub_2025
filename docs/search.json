@@ -11,28 +11,28 @@
     "href": "blog/index.html",
     "title": "Blog",
     "section": "",
-    "text": "Transcriptional and Epigenetic Landscapes in Cellular Quiescence\n\n\n\nGenetic\n\nEpigenetic\n\nData visualization\n\n\n\n\n\n\nJun 19, 2025\n\n\nShengyuan\n\n\n\n\n\n\n\n\n\n\n\n\nProteomics-Driven Target Identification\n\n\n\nProteomics\n\nProteome Integral Solubility Alteration\n\noff-target\n\ndrug development\n\n\n\n\n\n\nJun 18, 2025\n\n\nXuekang\n\n\n\n\n\nNo matching items"
+    "text": "Transcriptional and Epigenetic Landscapes in Cellular Quiescence\n\n\n\nGenetics\n\nEpigenetics\n\nData visualization\n\n\n\n\n\n\nJun 19, 2025\n\n\nShengyuan\n\n\n\n\n\n\n\n\n\n\n\n\nProteomics-Driven Target Identification\n\n\n\nProteomics\n\nProteome Integral Solubility Alteration\n\noff-target\n\ndrug development\n\n\n\n\n\n\nJun 18, 2025\n\n\nXuekang\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about/index.html",
     "href": "about/index.html",
-    "title": "About MedOmics Hub",
+    "title": "Interactive Exploration of Multi-Omic Medical Research",
     "section": "",
-    "text": "Shengyuan Zeng\n\n\nPhD at Karolinska Institute Genomics and Epigenomics / NGS technology / Spatial chromosomes sequencing Hi-C / Multi-omics bioinformatics / Data visualization / Data analysis\n\n\n\nXuekang Qi\n\n\nPostdoc at KI. Using novel chemical, thermal and quantitative proteomics technologies to study Acute Lymphoblastic Leukemia (ALL).\n\n\n\nBaizhen Chen\n\n\nPhD student at KTH. Multi-omics analysis / Spatial proteomics / Hormone receptor in cancer"
+    "text": "&lt;img src=\"logo5.png\" alt=\"MedOmics Hub Logo\" style=\"width: 250px;\" /&gt;\n\n\n\n&lt;p style=\"font-size: 1.1em;\"&gt;\n  &lt;strong&gt;MedOmics Hub&lt;/strong&gt; is an interactive platform designed for exploring, visualizing, and analyzing multi-omic data in biomedical research. It provides an integrated environment for bioinformatic workflows.\n&lt;/p&gt;"
   },
   {
     "objectID": "about/index.html#meet-the-team",
     "href": "about/index.html#meet-the-team",
     "title": "About MedOmics Hub",
-    "section": "",
-    "text": "Shengyuan Zeng\n\n\nPhD at Karolinska Institute Genomics and Epigenomics / NGS technology / Spatial chromosomes sequencing Hi-C / Multi-omics bioinformatics / Data visualization / Data analysis\n\n\n\nXuekang Qi\n\n\nPostdoc at KI. Using novel chemical, thermal and quantitative proteomics technologies to study Acute Lymphoblastic Leukemia (ALL).\n\n\n\nBaizhen Chen\n\n\nPhD student at KTH. Multi-omics analysis / Spatial proteomics / Hormone receptor in cancer"
+    "section": "Meet the Team",
+    "text": "Meet the Team\n\n\n\nShengyuan Zeng, PhD\n\n\nPhD at Karolinska Institute in Genomics and Epigenomics / NGS technology / Spatial chromosomes sequencing Hi-C / Multi-omics bioinformatics / Data visualization / Data analysis\n\n\n\nXuekang Qi, PhD\n\n\nPostdoc at KI. Using novel chemical, thermal and quantitative proteomics technologies to study Acute Lymphoblastic Leukemia (ALL).\n\n\n\nBaizhen Chen, PhD candidate\n\n\nPhD student at KTH. Multi-omics analysis / Spatial proteomics / Hormone receptor in cancer"
   },
   {
     "objectID": "about/index.html#our-inspiration",
     "href": "about/index.html#our-inspiration",
     "title": "About MedOmics Hub",
     "section": "Our Inspiration",
-    "text": "Our Inspiration\nMedOmics Hub was born from a shared enthusiasm during the RaukR course, where we explored the power of multi-omics analysis and the importance of effective data communication. Inspired by the course environment, we realized how valuable it would be to create a platform where we can share knowledge and build interactive visualizations to make complex multi-omics datasets more accessible, engaging, and informative."
+    "text": "Our Inspiration\nMedOmics Hub was born from a shared enthusiasm during the RaukR2025 workshop, where we explored the power of multi-omics analysis and the importance of effective data communication. Inspired by the course environment, we realized how valuable it would be to create a platform where we can share knowledge and build interactive visualizations to make complex multi-omics datasets more accessible, engaging, and informative."
   },
   {
     "objectID": "about/index.html#join-the-journey",
@@ -130,14 +130,14 @@
     "href": "events/events.html",
     "title": "Events",
     "section": "",
-    "text": "RaukR2025 9th–19th June, 2025, Gotland, Sweden We are enrolled in RaukR 2025 and have begun getting to know each other as we start building the MedOmics Hub together.\nBig Congratulations to Our Team Member! 🎉 🎉 🎉 We’re excited to announce that Baizhen Chen has been accepted into the National Graduate School in Medical Bioinformatics (MedBioInfo) for a prestigious three-year training program. We are incredibly proud of him and excited for this next step in his academic journey!"
+    "text": "RaukR2025 9th–19th June, 2025, Gotland, Sweden We are enrolled in RaukR 2025 and have begun getting to know each other as we start building the MedOmics Hub together.  \nBig Congratulations to Our Team Member! 🎉 🎉 🎉 We’re excited to announce that Baizhen Chen has been accepted into the National Graduate School in Medical Bioinformatics (MedBioInfo) for a prestigious three-year training program. We are incredibly proud of him and excited for this next step in his academic journey!"
   },
   {
     "objectID": "events/events.html#section",
     "href": "events/events.html#section",
     "title": "Events",
     "section": "",
-    "text": "RaukR2025 9th–19th June, 2025, Gotland, Sweden We are enrolled in RaukR 2025 and have begun getting to know each other as we start building the MedOmics Hub together.\nBig Congratulations to Our Team Member! 🎉 🎉 🎉 We’re excited to announce that Baizhen Chen has been accepted into the National Graduate School in Medical Bioinformatics (MedBioInfo) for a prestigious three-year training program. We are incredibly proud of him and excited for this next step in his academic journey!"
+    "text": "RaukR2025 9th–19th June, 2025, Gotland, Sweden We are enrolled in RaukR 2025 and have begun getting to know each other as we start building the MedOmics Hub together.  \nBig Congratulations to Our Team Member! 🎉 🎉 🎉 We’re excited to announce that Baizhen Chen has been accepted into the National Graduate School in Medical Bioinformatics (MedBioInfo) for a prestigious three-year training program. We are incredibly proud of him and excited for this next step in his academic journey!"
   },
   {
     "objectID": "blog/Transcriptional_and_Epigenetic_Landscapes_of_Cellular_Quiescence/index.html",
@@ -145,5 +145,12 @@
     "title": "Transcriptional and Epigenetic Landscapes in Cellular Quiescence",
     "section": "",
     "text": "No matching items"
+  },
+  {
+    "objectID": "about/index.html#our-logo",
+    "href": "about/index.html#our-logo",
+    "title": "About MedOmics Hub",
+    "section": "Our logo",
+    "text": "Our logo"
   }
 ]

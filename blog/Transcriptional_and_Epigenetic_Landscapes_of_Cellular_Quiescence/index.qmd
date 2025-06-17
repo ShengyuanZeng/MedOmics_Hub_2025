@@ -7,14 +7,6 @@ categories:
   - Genetics
   - Epigenetics
   - Data visualization
-listing: 
-  contents:
-    - "*.qmd"
-  type: default
-  fields: [title, author, categories, date, image]
-  sort: "date desc"
-  image-height: 200px
-format: 
-  html: 
-    page-layout: full
+page-layout: article
+image: Core_quiescence_genes.png
 ---

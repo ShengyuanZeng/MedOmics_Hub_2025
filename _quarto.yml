@@ -4,16 +4,15 @@ project:
 
 format:
   html:
-    theme: flatly
+    theme: litera
   
 website: 
   title: "Interactive Exploration of Multi-Omic Medical Research"
-  favicon: image/logo5.png # shows in browser tab
   description: A website built with Quarto to analyze the transcription and epigenetics data
   navbar:
     logo: image/logo5.png # shows in the top-left navbar
     title: MedOmics Hub
-    left:
+    right:
       - text: Home
         href: index.qmd
       - text: Blog

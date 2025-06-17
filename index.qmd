@@ -1,18 +1,8 @@
 ---
 # title: "MedOmics Hub"
 format: html
+page-layout: full
 ---
 
-<div style="text-align: center; font-size: 2em; font-weight: bold; margin-top: 20px;">
-  Welcome to <span style="color: #000000;">MedOmics Hub</span>
-</div>
-
-<p style="text-align: center; font-size: 1.2em;">
-  An interactive platform for exploring, visualizing, and analyzing multi-omic data in biomedical research.
-</p>
-
-<img src="image/MultiOmics_3.png" alt="MedOmicS" style="display: block; margin: 0 auto; max-width: 100%; height: auto;" />
-
-
-
-
+<img src="image/MultiOmics_6.png" alt="MedOmicS"
+     style="display: block; width: 100%; height: auto; margin: 0;" />

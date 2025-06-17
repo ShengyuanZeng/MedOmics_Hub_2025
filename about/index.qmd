@@ -3,29 +3,33 @@ title: 'About MedOmics Hub'
 format:
   html: 
     page-layout: full
----
+--- 
 
-## Meet the Team
+<br> 
 
-![[Shengyuan Zeng](https://www.linkedin.com/in/shengyuan-zeng-72742a20b/) ](Shengyuan.png){fig-align="left" width=200}
+## Our logo
+![MedOmics_hub logo](logo2.png){fig-align="left" width="250"}<br> 
+
+## Meet the Team 
+![[Shengyuan Zeng, PhD](https://www.linkedin.com/in/shengyuan-zeng-72742a20b/)](Shengyuan.png){fig-align="left" width=200}
 
 PhD at Karolinska Institute in Genomics and Epigenomics / NGS technology / Spatial chromosomes sequencing Hi-C / Multi-omics bioinformatics / Data visualization / Data analysis
 
-![[Xuekang Qi](https://ki.se/en/people/xuekang-qi)](xueqi.png){fig-align="left" width=200}
+![[Xuekang Qi, PhD](https://ki.se/en/people/xuekang-qi)](xueqi.png){fig-align="left" width=200}
 
 Postdoc at KI. Using novel chemical, thermal and quantitative proteomics technologies to study Acute Lymphoblastic Leukemia (ALL).
 
-![[Baizhen Chen](https://www.kth.se/profile/baizhen?l=en)](baizhen.png){fig-align="left" width=200}
+![[Baizhen Chen, PhD candidate](https://www.kth.se/profile/baizhen?l=en)](baizhen.png){fig-align="left" width=200}
 
-PhD student at KTH. Multi-omics analysis / Spatial proteomics / Hormone receptor in cancer
+PhD student at KTH. Multi-omics analysis / Spatial proteomics / Hormone receptor in cancer <br>
 
 ## Our Inspiration
 
-MedOmics Hub was born from a shared enthusiasm during the RaukR2025 workshop, where we explored the power of multi-omics analysis and the importance of effective data communication. Inspired by the course environment, we realized how valuable it would be to create a platform where we can share knowledge and build interactive visualizations to make complex multi-omics datasets more accessible, engaging, and informative.
+MedOmics Hub was born from a shared enthusiasm during the RaukR2025 workshop, where we explored the power of multi-omics analysis and the importance of effective data communication. Inspired by the course environment, we realized how valuable it would be to create a platform where we can share knowledge and build interactive visualizations to make complex multi-omics datasets more accessible, engaging, and informative. <br>
 
 ## Join the Journey
 
-MedOmics Hub is just getting started, and we’re excited about where it could go. In the future, we aim to expand the hub by adding more datasets, refining our tools, and involving collaborators from diverse research areas. If you're passionate about omics, data science, or scientific communication and would like to contribute or collaborate, we’d love to hear from you!
+MedOmics Hub is just getting started, and we’re excited about where it could go. In the future, we aim to expand the hub by adding more datasets, refining our tools, and involving collaborators from diverse research areas. If you're passionate about omics, data science, or scientific communication and would like to contribute or collaborate, we’d love to hear from you! <br>
 
 ## Our Motivation
 
