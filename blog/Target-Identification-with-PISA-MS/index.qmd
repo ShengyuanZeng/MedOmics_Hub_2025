@@ -73,4 +73,4 @@ Quantitative protein data are processed with DEqMS to identify proteins with sig
 
 Data are visualized using the volcanoPISA Shiny app, generating volcano plots to highlight stabilized proteins and destabilized proteins (potential target/off-targets or effectors).
 
-![[volcanoPISA](link)](volcanoPISA.png){fig-align="left" width=100}
+![[volcanoPISA](https://xuekang.shinyapps.io/volcanoPISA/)](volcanoPISA.png){fig-align="left" width=100}
