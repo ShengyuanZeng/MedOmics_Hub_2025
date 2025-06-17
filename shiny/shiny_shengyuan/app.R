@@ -1,25 +1,22 @@
-#
 # This is a Shiny web application. You can run the application by clicking
 # the 'Run App' button above.
-#
+
 # Find out more about building applications with Shiny here:
-#
-#    https://shiny.posit.co/
-#
+# https://shiny.posit.co/
 
 library(shiny)
+library(bslib)
 
 # Define UI for application that draws a histogram
 ui <- fluidPage(
-  titlePanel("Genetics and Epigenetics Data"), # Application title
+  titlePanel("Transcriptional and Epigenetic Landscapes of G0 Cells"), # Application title
   sidebarLayout(
     # Sidebar with a slider input for number of bins
     sidebarPanel(
       sliderInput("bins", "Number of bins:", min = 1, max = 50, value = 30)
     ),
-
-    # Show a plot of the generated distribution
     mainPanel(
+      # Show a plot of the generated distribution
       plotOutput("distPlot")
     )
   )
@@ -43,6 +40,8 @@ server <- function(input, output) {
     )
   })
 }
+
+print()
 
 # Run the application
 shinyApp(ui = ui, server = server)
