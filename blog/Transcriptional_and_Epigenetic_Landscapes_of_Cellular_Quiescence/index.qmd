@@ -1,0 +1,20 @@
+---
+title: "Transcriptional and Epigenetic Landscapes in Cellular Quiescence"
+description: "Post description"
+author: "Shengyuan"
+date: "6/19/2025"
+categories:
+  - Genetics
+  - Epigenetics
+  - Data visualization
+listing: 
+  contents:
+    - "*.qmd"
+  type: default
+  fields: [title, author, categories, date, image]
+  sort: "date desc"
+  image-height: 200px
+format: 
+  html: 
+    page-layout: full
+---

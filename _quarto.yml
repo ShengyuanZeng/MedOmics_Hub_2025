@@ -1,7 +1,10 @@
 project:
   type: website
   output-dir: docs
-  
+
+format:
+  html:
+    theme: flatly
   
 website: 
   title: "Interactive Exploration of Multi-Omic Medical Research"
