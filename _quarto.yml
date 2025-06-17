@@ -16,7 +16,7 @@ website:
       - text: Blog
         href: blog/index.qmd 
       - text: Events
-        href: events/index.qmd
+        href: events/events.qmd
       - text: About
         href: about/index.qmd
   page-footer:

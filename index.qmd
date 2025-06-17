@@ -1,9 +1,14 @@
 ---
-# title: 'Interactive Exploration of Multi-Omic Medical Research'
+# title: "MedOmics Hub"
 format: html
 ---
 
-<img src="image/logo5.png" alt="MedOmics Hub Logo" width="200" style="display: block; margin: 0 auto;" />
+Welcome to **MedOmics Hub**
 
-Welcome to **MedOmics Hub** — an interactive platform for exploring multi-omic medical research.
+An interactive platform for exploring, visualizing, and analyzing multi-omic data in biomedical research.
+
+<img src="image/MultiOmics_3.png" alt="MedOmicS" style="display: block; margin: 0 auto; max-width: 80%; height: auto;" />
+
+
+
 

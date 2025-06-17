@@ -9,7 +9,7 @@ format:
 
 ![[Shengyuan Zeng](https://www.linkedin.com/in/shengyuan-zeng-72742a20b/) ](Shengyuan.png){fig-align="left" width=200}
 
-PhD at Karolinska Institute Genomics and Epigenomics / NGS technology / Spatial chromosomes sequencing Hi-C / Multi-omics bioinformatics / Data visualization / Data analysis
+PhD at Karolinska Institute in Genomics and Epigenomics / NGS technology / Spatial chromosomes sequencing Hi-C / Multi-omics bioinformatics / Data visualization / Data analysis
 
 ![[Xuekang Qi](https://ki.se/en/people/xuekang-qi)](xueqi.png){fig-align="left" width=200}
 
@@ -21,7 +21,7 @@ PhD student at KTH. Multi-omics analysis / Spatial proteomics / Hormone receptor
 
 ## Our Inspiration
 
-MedOmics Hub was born from a shared enthusiasm during the RaukR course, where we explored the power of multi-omics analysis and the importance of effective data communication. Inspired by the course environment, we realized how valuable it would be to create a platform where we can share knowledge and build interactive visualizations to make complex multi-omics datasets more accessible, engaging, and informative.
+MedOmics Hub was born from a shared enthusiasm during the RaukR2025 workshop, where we explored the power of multi-omics analysis and the importance of effective data communication. Inspired by the course environment, we realized how valuable it would be to create a platform where we can share knowledge and build interactive visualizations to make complex multi-omics datasets more accessible, engaging, and informative.
 
 ## Join the Journey
 
