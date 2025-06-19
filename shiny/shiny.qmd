@@ -6,9 +6,10 @@ page-layout: full
 
 ## 
 ### 2025 
+<br>
 
-volcanoPISA
-![[volcanoPISA](https://xuekang.shinyapps.io/volcanoPISA/)]
 
-InteractiveShiny
-![[InteractiveShiny](https://baizhenscilifelab.shinyapps.io/shinyapp/)]
+![[volcanoPISA](https://xuekang.shinyapps.io/volcanoPISA/)](volcanoPISA.png){fig-align="left" width="700"}
+
+
+![[InteractiveShiny](https://baizhenscilifelab.shinyapps.io/shinyapp/)](InteractiveSurvivalAnaylsis.png){fig-align="left" width="700"}
