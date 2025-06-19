@@ -10,6 +10,7 @@ library(bslib)
 library(dplyr)
 library(DT)
 library(openxlsx)
+library(rsconnect)
 
 
 # load dataset
@@ -80,3 +81,12 @@ server <- function(input, output) {
 
 # 运行App
 shinyApp(ui, server)
+
+rsconnect::setAccountInfo(
+  name = 'shengyuan',
+  token = '47D27D0488E02E8200775637E9EF8F4B',
+  secret = '<SECRET>'
+)
+
+library(rsconnect)
+rsconnect::deployApp('path/to/your/app')

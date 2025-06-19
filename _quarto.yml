@@ -17,6 +17,8 @@ website:
         href: index.qmd
       - text: Blog
         href: blog/index.qmd 
+      - text: shiny
+        href: shiny/shiny.qmd 
       - text: Events
         href: events/events.qmd
       - text: About

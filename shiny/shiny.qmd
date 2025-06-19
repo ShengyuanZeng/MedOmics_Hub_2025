@@ -1,0 +1,14 @@
+---
+title: "shinyapps"
+format: html
+page-layout: full
+---
+
+## 
+### 2025 
+
+volcanoPISA
+![[volcanoPISA](https://xuekang.shinyapps.io/volcanoPISA/)]
+
+InteractiveShiny
+![[InteractiveShiny](https://baizhenscilifelab.shinyapps.io/shinyapp/)]
