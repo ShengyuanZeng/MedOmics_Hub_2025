@@ -2,7 +2,8 @@
 # title: "MedOmics Hub"
 format: html
 page-layout: full
+css: styles.css
 ---
 
-<img src="image/MultiOmics_6.png" alt="MedOmicS"
-     style="display: block; width: 100%; height: auto; margin: 0;" />
+<!-- Optional fallback content -->
+<div style="height: 100vh;"></div>

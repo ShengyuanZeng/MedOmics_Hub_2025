@@ -4,44 +4,79 @@
 # Find out more about building applications with Shiny here:
 # https://shiny.posit.co/
 
+# load libraries
 library(shiny)
 library(bslib)
+library(dplyr)
+library(DT)
+library(openxlsx)
+
+
+# load dataset
+data <- read.csv("DEseq2_lfc_summary_TSS_remove_batch.csv")
+str(data)
+
 
 # Define UI for application that draws a histogram
+# UI
 ui <- fluidPage(
-  titlePanel("Transcriptional and Epigenetic Landscapes of G0 Cells"), # Application title
+  titlePanel(
+    "Transcriptional and Epigenetic Landscapes in Cellular Quiescence"
+  ),
+
   sidebarLayout(
-    # Sidebar with a slider input for number of bins
     sidebarPanel(
-      sliderInput("bins", "Number of bins:", min = 1, max = 50, value = 30)
+      textInput(
+        "Gene_name",
+        "Enter Gene Name:",
+        placeholder = "e.g. SPAC1F8.04c"
+      ),
+      actionButton("search", "Search")
     ),
+
     mainPanel(
-      # Show a plot of the generated distribution
-      plotOutput("distPlot")
+      DTOutput("result_table")
     )
   )
 )
 
-# Define server logic required to draw a histogram
+# Server
 server <- function(input, output) {
-  output$distPlot <- renderPlot({
-    # generate bins based on input$bins from ui.R
-    x <- faithful[, 2]
-    bins <- seq(min(x), max(x), length.out = input$bins + 1)
+  gene_result <- eventReactive(input$search, {
+    req(input$Gene_name)
 
-    # draw the histogram with the specified number of bins
-    hist(
-      x,
-      breaks = bins,
-      col = 'darkgray',
-      border = 'white',
-      xlab = 'Waiting time to next eruption (in mins)',
-      main = 'Histogram of waiting times'
-    )
+    data %>%
+      filter(Gene_name == input$Gene_name) %>%
+      select(
+        Geneid,
+        Gene_name,
+        Chr,
+        Start,
+        Chromosome,
+        RNA_expression,
+        log2FoldChange_RNAPolIIS5,
+        padj_RNAPolIIS5,
+        log2FoldChange_RNAPolIIS2,
+        padj_RNAPolIIS2,
+        log2FoldChange_H3K4me3,
+        padj_H3K4me3,
+        log2FoldChange_H3K9ac,
+        padj_H3K9ac,
+        log2FoldChange_H3K9me2,
+        padj_H3K9me2,
+        log2FoldChange_H3K9me3,
+        padj_H3K9me3,
+        log2FoldChange_H2A.Z,
+        padj_H2A.Z,
+        log2FoldChange_H3,
+        padj_H3
+      )
+  })
+
+  output$result_table <- renderDT({
+    datatable(gene_result(), options = list(scrollX = TRUE))
   })
 }
 
-print()
-
-# Run the application
-shinyApp(ui = ui, server = server)
+# 运行App
+shinyApp(ui, server)

@@ -7,6 +7,25 @@ categories:
   - Genetics
   - Epigenetics
   - Data visualization
+  - Cell cycle
 page-layout: article
 image: Core_quiescence_genes.png
 ---
+
+### What is quiescence and why we study quiescence
+
+Cell proliferation is a fundamental biological process that drives exponential increases in cell numbers and facilitates rapid tissue growth through coordinated cell growth and division. In unicellular organisms, like yeast cells, the cellular proliferation is primarily regulated by nutrient availability. Cells tend to grow faster and become larger in nutrient-rich environments compared to nutrient-limited conditions. This adaptive strategy allows cells to tailor their growth and proliferation in response to environmental cues. In multicellular organisms, however, cellular proliferation is not solely dictated by nutrient availability; instead, it is tightly regulated by complex extracellular signaling networks that coordinate growth with tissue architecture, organ function, and overall organismal development (Grewal & Edgar, 2003) (Conlon & Raff, 2003). Cellular quiescence represents the counterpart to cell proliferation. In this reversible state, cells exit the proliferative cycle and enter a non-dividing phase while retaining the ability to re-enter the cell cycle when conditions become favorable. Unlike other non-dividing states, such as senescence or terminal differentiation—which involve permanent cell cycle arrest—quiescence is a transient state (Marescal & Cheeseman, 2020). 
+![Figure 1. The mitotic cell cycle and quiescence. (Sun & Gresham, 2021)](Cell_cycle.png){width=450}
+
+### How we study quiescence
+
+Schizosaccharomyces pombe serves as an excellent unicellular eukaryotic model for studying a wide range of molecular and cellular processes, including DNA replication, mitosis, meiosis, chromatin dynamics, genome transcription, and cellular quiescence. Phylogenetic analyses estimate that these two yeast species diverged approximately 300 to 600 million years ago (Douzery et al., 2004), and the evolutionary distance between them is comparable to that between yeast and humans (Sipiczki, 2000). Despite this divergence, S. pombe retains a greater number of ancestral features, as revealed by genome sequencing and proteomic analyses. The genome of S. pombe encodes approximately 5,070 protein-coding genes, among which 3,536 have human homologs and 1,244 are associated with human diseases (Wood et al., 2002). In comparison to S. cerevisiae, S. pombe conserves over 300 additional genes and participates in a wider array of biological processes that are also found in higher eukaryotes (Aravind et al., 2000) (Wood, 2006). These features make S. pombe a highly valuable model for elucidating the potential functions of genes conserved in complex eukaryotic organisms.
+![Figure 2. Quiescence establishment process in S. pombe. (Sajiki et al., 2009)](Yeast_quiescence.png){width=450)
+
+
+## 🔍 Gene Lookup: RNA-seq & ChIP-seq Integration
+
+To explore transcriptional and epigenetic profiles interactively, launch the app locally below:
+
+👉 [Launch the Shiny App](..blog/Transcriptional_and_Epigenetic_Landscapes_of_Cellular_Quiescence/shiny_shengyuan)
+

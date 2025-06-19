@@ -1,4 +1,9 @@
-/* Set background color for the whole page */
 body {
-  background-color: #f5f5f5;  /* 浅灰色 */
+  background-image: url("image/MultiOmics_5.png");
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-position: center 140px;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
 }

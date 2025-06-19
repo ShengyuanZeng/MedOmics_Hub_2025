@@ -11,7 +11,7 @@
     "href": "blog/index.html",
     "title": "Blog",
     "section": "",
-    "text": "Transcriptional and Epigenetic Landscapes in Cellular Quiescence\n\n\n\nGenetics\n\nEpigenetics\n\nData visualization\n\n\n\n\n\n\nJun 19, 2025\n\n\nShengyuan\n\n\n\n\n\n\n\n\n\n\n\n\nProteomics-Driven Target Identification\n\n\n\nProteomics\n\nProteome Integral Solubility Alteration\n\noff-target\n\ndrug development\n\n\n\n\n\n\nJun 18, 2025\n\n\nXuekang\n\n\n\n\n\nNo matching items"
+    "text": "Transcriptional and Epigenetic Landscapes in Cellular Quiescence\n\n\n\nGenetics\n\nEpigenetics\n\nData visualization\n\nCell cycle\n\n\n\n\n\n\nJun 19, 2025\n\n\nShengyuan\n\n\n\n\n\n\n\n\n\n\n\n\nProteomics-Driven Target Identification\n\n\n\nProteomics\n\nProteome Integral Solubility Alteration\n\noff-target\n\ndrug development\n\n\n\n\n\n\nJun 18, 2025\n\n\nXuekang\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about/index.html",
@@ -144,7 +144,7 @@
     "href": "blog/Transcriptional_and_Epigenetic_Landscapes_of_Cellular_Quiescence/index.html",
     "title": "Transcriptional and Epigenetic Landscapes in Cellular Quiescence",
     "section": "",
-    "text": "No matching items"
+    "text": "Cell proliferation is a fundamental biological process that drives exponential increases in cell numbers and facilitates rapid tissue growth through coordinated cell growth and division. In unicellular organisms, like yeast cells, the cellular proliferation is primarily regulated by nutrient availability. Cells tend to grow faster and become larger in nutrient-rich environments compared to nutrient-limited conditions. This adaptive strategy allows cells to tailor their growth and proliferation in response to environmental cues. In multicellular organisms, however, cellular proliferation is not solely dictated by nutrient availability; instead, it is tightly regulated by complex extracellular signaling networks that coordinate growth with tissue architecture, organ function, and overall organismal development (Grewal & Edgar, 2003) (Conlon & Raff, 2003). Cellular quiescence represents the counterpart to cell proliferation. In this reversible state, cells exit the proliferative cycle and enter a non-dividing phase while retaining the ability to re-enter the cell cycle when conditions become favorable. Unlike other non-dividing states, such as senescence or terminal differentiation—which involve permanent cell cycle arrest—quiescence is a transient state (Marescal & Cheeseman, 2020)."
   },
   {
     "objectID": "about/index.html#our-logo",
@@ -152,5 +152,12 @@
     "title": "About MedOmics Hub",
     "section": "Our logo",
     "text": "Our logo"
+  },
+  {
+    "objectID": "blog/Transcriptional_and_Epigenetic_Landscapes_of_Cellular_Quiescence/index.html#gene-lookup-rna-seq-chip-seq-integration",
+    "href": "blog/Transcriptional_and_Epigenetic_Landscapes_of_Cellular_Quiescence/index.html#gene-lookup-rna-seq-chip-seq-integration",
+    "title": "Transcriptional and Epigenetic Landscapes in Cellular Quiescence",
+    "section": "🔍 Gene Lookup: RNA-seq & ChIP-seq Integration",
+    "text": "🔍 Gene Lookup: RNA-seq & ChIP-seq Integration\nTo explore transcriptional and epigenetic profiles interactively, launch the app locally below:\n👉 Launch the Shiny App"
   }
 ]
